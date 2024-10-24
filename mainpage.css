@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #141414;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://netflixjunkie.com/wp-content/uploads/2021/11/Netflix-Background-1.jpg);
+}
+
+.login-container {
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 40px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+button.login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #e50914;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.login-button:hover {
+    background-color: #f40612;
+}
+
+.help-options {
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.signup {
+    margin-top: 30px;
+}
+
+.signup a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.signup a:hover {
+    text-decoration: underline;
+}
